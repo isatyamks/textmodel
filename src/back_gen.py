@@ -19,4 +19,7 @@ for i in range(l):
     i, j, k = generate_subtle_color()
     p = f"{i,j,k}"
     img = Image.new("RGB", (1080, 1080), color=(i, j, k))
+
+    img = Image.new
+
     img.save(f"data\\backgrounds\\{p}.jpg")
