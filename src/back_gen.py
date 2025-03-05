@@ -10,7 +10,7 @@ l = int(input("Enter no of images: "))
 
 
 def generate_subtle_color():
-    return random.randint(230, 255), random.randint(230, 255), random.randint(230, 255)
+    return random.randint(100, 255), random.randint(100, 255), random.randint(100, 255)
 
 
 
